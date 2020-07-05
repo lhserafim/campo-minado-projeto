@@ -1,0 +1,8 @@
+1. JUnit
+    1.1. Para criar os testes, foram necessários 2 passos
+        1.1.1. Adicionar um novo "source folder", conforme orientado: https://www.jetbrains.com/help/idea/content-roots.html#folder-categories
+        1.1.2. Adicionar as bibliotecas do JUnit, conforme orientado: https://www.jetbrains.com/help/idea/configuring-testing-libraries.html
+    1.2. Sinais que o setup funcionou
+        1.2.1. O diretório "source folder" test é de cor verde e ficou fora do src
+        1.2.2. As bibliotecas do JUnit ficaram em External Libraries
+        1.2.3. Ao tentra criar uma classe de teste, o sistema joga automaticamente dentro da test (verde)
